@@ -74,59 +74,6 @@ img {
 
 /* RESPONSIVE SECTION */
 
-/* MOBILE */
-@media screen and (max-width:420px) {
-  /* LEZIONI */
-  #lezioni .row {
-    width: 100%;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    margin-top: 0;
-    margin-bottom: 10px;
-  }
-
-  #lezioni .row .right img {
-    width: 100%;
-    object-fit: contain;
-  }
-
-  /* STEPS */
-  #steps .row {
-    width: 100%;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    margin-top: 0;
-  }
-
-  #steps .row .left,
-  #steps .row .central,
-  #steps .row .right {
-    width: 80%;
-  }
-
-  #steps .row img {
-    padding-top: 10px;
-  }
-
-  /* WHY */
-  #why .row {
-    width: 100%;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    margin-top: 0;
-  }
-
-  #why .row .first,
-  #why .row .second,
-  #why .row .third {
-    margin: 15px 0;
-    width: 85%;
-  }
-}
-
 /* TABLET */
 @media screen and (max-width:770px) {
    /* LEZIONI */
@@ -166,4 +113,58 @@ img {
   }
 }
 
+/* MOBILE */
+@media screen and (max-width:420px) {
+  /* LEZIONI */
+  #lezioni .row {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 0;
+    margin-bottom: 10px;
+  }
 
+  #lezioni .row .left img,
+  #lezioni .row .right img {
+    width: 100%;
+    object-fit: contain;
+  }
+
+  /* STEPS */
+  #steps .row {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 0;
+  }
+
+  #steps .row .left,
+  #steps .row .central,
+  #steps .row .right {
+    width: 80%;
+  }
+
+  #steps .row img {
+    padding-top: 10px;
+    width: 100%;
+    object-fit: contain;
+  }
+
+  /* WHY */
+  #why .row {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 0;
+  }
+
+  #why .row .first,
+  #why .row .second,
+  #why .row .third {
+    margin: 15px 0;
+    width: 85%;
+  }
+}
